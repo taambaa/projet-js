@@ -1,0 +1,19 @@
+html{
+    background-color: rgba(0, 0, 0, 0.858);
+    color: rgb(198, 230, 138);
+}
+h1{
+    text-align: center;
+    text-decoration:underline;
+    color: rgb(25, 207, 61);
+}
+p{
+    font-size: larger ;
+}
+button{
+    background-color: rgb(25, 207, 61);
+    color: black;
+}
+input{
+    background-color: rgb(198, 230, 138);
+}
