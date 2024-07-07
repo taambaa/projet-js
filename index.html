@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuisinons</title>
+    <link rel="stylesheet" href="C:\Users\Tamba\OneDrive\Documents\ECPI\TECHNOLOGIE WEB\styles.css">
+</head>
+<body>
+    <h1>PRESENTATION</h1>
+    <P> Cette application vous permet d'etre un expert en cuisine a vous proposant 
+        des recettes et toutes les instruction necessaires pour aboutir a des plats
+         savoureux et succulents.Avec cette appli soyez sur d'eblouir vos invites.
+         Elle donne aussi a ses utilisateur la possibilite d'<strong>ajouter</strong>,
+         de <strong>modifier</strong> et meme de <strong> supprimer</strong> des recettes. 
+    </P>
+    <h1>RECETTES</h1>
+    <div>
+        <ul id="recettes">
+            <li><label for="thieb">thiebujen</label>
+                <button>supprimer</button>
+                <ul id="thieb">
+                    <li><label for="Ingrediens">Ingrediens</label>
+                        <ul id="Ingrediens">
+                            <li>eau</li>
+                            <li>riz</li>
+                            <li>poisson</li>
+                            <li>huile</li>
+                            <li>epices</li>
+                        </ul>
+                    </li>
+                    <li><label for="instructions">Instructions</label>
+                        <ul id="instructions">
+                            <li>prener la marmite et poser la sur le feu</li>
+                            <li>verser un demi littre d'huile dans la marmite</li>
+                            <li>etc...</li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <h1>Ajout de Nouvelles Recettes</h1>
+    <input type="text" placeholder="nom" id="nom">
+    <button id="ajout_nom">ajout</button>
+    <input type="text" placeholder="Ingrediens" id="ingredien">
+    <button id="ajout_ing">ajout</button>
+    <input type="text" placeholder="Imstructions" id="instruction">
+    <button id="ajout_inst">ajout</button>
+    <script src='C:\Users\Tamba\OneDrive\Documents\ECPI\TECHNOLOGIE WEB\script.js'></script>
+</body>
+</html>
